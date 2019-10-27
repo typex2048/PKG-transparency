@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/rujia/eclipse-workspace/typex/service/target/debug/build/typenum-6fbaabb4867df8de/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/rujia/eclipse-workspace/typex/service/target/debug/build/typenum-6fbaabb4867df8de/out/op.rs
