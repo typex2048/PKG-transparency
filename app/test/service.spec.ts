@@ -16,6 +16,11 @@ describe('TypeX Test', () => {
     expect(service).toBeTruthy();
   });
 
+  it('insert the public parameters', async () => {
+    let rs = await service.registerParam(['30458', '30458']);
+    //expect(true).toEqual(rs);
+  });
+
   afterAll(() => {
     oasis.disconnect();
   });

@@ -38,6 +38,7 @@ struct TypeX{
 
 type Result<T> = std::result::Result<T, String>; 
 
+
 impl TypeX{
 
     // new construction

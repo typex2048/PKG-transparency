@@ -1,2 +1,0 @@
-cargo:rustc-env=TYPENUM_BUILD_OP=/home/rujia/Desktop/github/PKG-transparency/service/target/release/build/typenum-4c0f9c94a755ecfb/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/rujia/Desktop/github/PKG-transparency/service/target/release/build/typenum-4c0f9c94a755ecfb/out/op.rs
