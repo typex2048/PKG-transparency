@@ -76,7 +76,22 @@ impl TypeX{
         Ok(self.user_ids.clone())
     }
 
-     // get the proofs
+    // register the public_parameters 
+    pub fn batch_insert_user(&mut self, _ctx: &Context, usedids: Vec<String>) -> Result<()> {
+	    self.user_ids = usedids;
+        Ok(())
+    }
+
+    // the assumption: there are already 10000 users in the system
+    pub fn prepare_assumption_data(&mut self, _ctx: &Context) -> Result<()> {
+       let n = 35;
+       for i in 1..n {
+            self.user_ids.push(i.to_string());
+       }
+       Ok(())
+    }
+
+     // register a new user
     pub fn register_user(&mut self, _ctx: &Context, usedid: String) -> Result<String> {
         
         let mut usedid_clone = usedid.clone();
@@ -141,12 +156,26 @@ mod tests{
     #[test]
     fn functionality(){
        let (_admin, admin_ctx) = create_account();
-       let mut typex = TypeX::new(&admin_ctx);
+       let mut typex = TypeX::new(&admin_ctx); 
+
+      /*
+        prepare the public_parameters [batch]
+        the assumption: there are already 100000000 users in the system
+       */
+       println!("[batch] prepare the data [start]");
+       let mut uids = Vec::new();
+       let n = 100;
+       for i in 1..n {
+            uids.push(i.to_string());   
+            println!("[batch] insert {} user without calculating the proof",i);
+       }
+       typex.batch_insert_user(&admin_ctx,uids);
+       println!("[batch] prepare the data [end]");
  
        /*
         prepare the public_parameters
         the assumption: there are already 100000000 users in the system
-       */
+       
        println!("prepare the data [start]");
        let n = 100;
        for i in 1..n {
@@ -155,7 +184,8 @@ mod tests{
        }
 
        println!("prepare the data [end]");
-       
+       */
+
        /*
        test case 1 for register_param
        */
