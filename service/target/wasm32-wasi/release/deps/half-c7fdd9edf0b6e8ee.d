@@ -1,0 +1,12 @@
+/home/rujia/Desktop/github/PKG-transparency/service/target/wasm32-wasi/release/deps/half-c7fdd9edf0b6e8ee.rmeta: /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/lib.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/bfloat.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/bfloat/convert.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/binary16.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/binary16/convert.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/slice.rs
+
+/home/rujia/Desktop/github/PKG-transparency/service/target/wasm32-wasi/release/deps/libhalf-c7fdd9edf0b6e8ee.rlib: /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/lib.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/bfloat.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/bfloat/convert.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/binary16.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/binary16/convert.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/slice.rs
+
+/home/rujia/Desktop/github/PKG-transparency/service/target/wasm32-wasi/release/deps/half-c7fdd9edf0b6e8ee.d: /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/lib.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/bfloat.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/bfloat/convert.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/binary16.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/binary16/convert.rs /home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/slice.rs
+
+/home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/lib.rs:
+/home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/bfloat.rs:
+/home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/bfloat/convert.rs:
+/home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/binary16.rs:
+/home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/binary16/convert.rs:
+/home/rujia/.cargo/registry/src/github.com-1ecc6299db9ec823/half-1.4.0/src/slice.rs:

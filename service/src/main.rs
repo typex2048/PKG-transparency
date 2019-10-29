@@ -36,13 +36,7 @@ struct TypeX{
     users_proof_map: Map<String, String>,
 }
 
-struct proofs {
-    pub proof: Proof<String>,
-    pub used_id: String,
-}
-
 type Result<T> = std::result::Result<T, String>; 
-
 
 impl TypeX{
 
@@ -153,7 +147,7 @@ mod tests{
         the assumption: there are already 100000000 users in the system
        */
        println!("prepare the data [start]");
-       let n = 100000;
+       let n = 100;
        for i in 1..n {
             typex.insert_user(&admin_ctx, i.to_string());
             println!("insert {} user without calculating the proof",i);
