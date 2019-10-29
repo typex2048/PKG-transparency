@@ -16,12 +16,20 @@ describe('TypeX Test', () => {
     expect(service).toBeTruthy();
   });
 
-  it('insert the public parameters', async () => {
-    let rs = await service.registerParam(['30458', '30458']);
+  it('Test: insert the public parameters', async () => {
+    let rs0 = await service.registerParam(['30458', '30458']);
     //expect(true).toEqual(rs);
   });
 
-  afterAll(() => {
-    oasis.disconnect();
-  });
+ it('Test: register the new users', async () => {
+    let rs1 = await service.registerUser('typexs');
+ });
+
+ it('Test: get proof for the user', async () => {
+    let rs2 = await service.getProof('typexs');
+ });
+
+ afterAll(() => {
+   oasis.disconnect();
+ });
 });
