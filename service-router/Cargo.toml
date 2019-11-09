@@ -1,0 +1,31 @@
+[package]
+name = "router"
+version = "0.1.0"
+authors = ["typex1024 <test@example.com>"]
+edition = "2018"
+
+[dependencies]
+map_vec = "0.2"
+oasis-std = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+#rust-crypto = "0.2.36"
+#rust-crypto-wasm = "0.2.36"
+blake2 = "0.8"
+clippy = {version = "0.0.131", optional = true}
+time = "0.1.42"
+#criterion = "0.3"
+
+#[bench]
+#name = "my_benchmark"
+#harness = false
+
+[features]
+dev = ["clippy"]
+
+[dev-dependencies]
+oasis-test = "0.2"
+
+[profile.release]
+lto = true
+opt-level = "z"
+panic = "abort"

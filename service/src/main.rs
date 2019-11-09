@@ -82,9 +82,14 @@ impl TypeX{
         Ok(())
     }
 
+   // get the user contract address 
+    pub fn get_user_contract_address(&mut self, _ctx: &Context, usedid: String) -> Result<String> {
+        Ok("0x441d4370976cbee0aef9c6e206b119e818002de1".to_string())
+    }
+
     // the assumption: there are already 10000 users in the system
     pub fn prepare_assumption_data(&mut self, _ctx: &Context) -> Result<()> {
-       let n = 35;
+       let n = 30;
        for i in 1..n {
             self.user_ids.push(i.to_string());
        }

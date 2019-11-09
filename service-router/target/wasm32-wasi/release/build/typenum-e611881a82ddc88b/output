@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/rujia/Desktop/github/PKG-transparency/service-router/target/wasm32-wasi/release/build/typenum-e611881a82ddc88b/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/rujia/Desktop/github/PKG-transparency/service-router/target/wasm32-wasi/release/build/typenum-e611881a82ddc88b/out/op.rs
